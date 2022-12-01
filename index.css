@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #273549;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+position: absolute;
+width: 550px;
+height: 100%;
+background: #1F2937;
+
+
+}
+
+.atas{
+    margin: 115px 52px 0 52px;
+}
+
+.atas h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+.atas p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: #D5D4D8;
+    margin: 10px 0 51px 0;
+}
+
+.atas button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px;
+    cursor: pointer;
+    
+}
+
+
+hr.solid {
+    border-top: 0.2px solid #2F3E53;
+    width: 446px;
+    margin: 35px 0 35px 0px;
+  }
+
+
+.bawah{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    margin: 0px 52px 0 52px;
+}
+.output{
+    
+width: 211px;
+height: 39px;
+
+background: #273549;
+border-radius: 6px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+text-align: center;
+
+
+color: #55F991;
+}
+
+.output p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #55F991;
+    margin-top: 11px;
+}
